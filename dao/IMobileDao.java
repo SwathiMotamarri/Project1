@@ -1,8 +1,8 @@
-package dao;
+package com.deloitte.telcom.dao;
 import java.util.Map;
 import java.util.Set;
 
-import entities.Mobile;
+import com.deloitte.telcom.entities.Mobile;
 
 
 public interface IMobileDao {

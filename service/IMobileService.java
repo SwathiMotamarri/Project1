@@ -1,10 +1,10 @@
 
-package service;
+package com.deloitte.telcom.service;
 	
 import java.util.Set;
 
-import dao.IMobileDao;
-import entities.Mobile;
+import com.deloitte.telcom.dao.IMobileDao;
+import com.deloitte.telcom.entities.Mobile;
 
 public interface IMobileService {
 		void addMobile(Mobile w);

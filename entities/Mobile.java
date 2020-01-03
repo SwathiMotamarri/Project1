@@ -1,4 +1,4 @@
-package entities;
+package com.deloitte.telcom.entities;
 
 public class Mobile 
 {

@@ -1,8 +1,8 @@
-package service;
+package com.deloitte.telcom.service;
 import java.util.Set;
-import dao.*;
-import entities.*;
-import exceptions.*;
+import com.deloitte.telcom.dao.*;
+import com.deloitte.telcom.entities.*;
+import com.deloitte.telcom.exceptions.*;
 
 
 public class MobileServiceImpl implements IMobileService 

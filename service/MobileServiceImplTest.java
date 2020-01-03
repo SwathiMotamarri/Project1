@@ -1,9 +1,9 @@
-package service;
+package com.deloitte.telcom.service;
 import static org.junit.Assert.assertEquals;
 import java.util.Map;
 import org.junit.Test;
-import dao.MobileDaoImpl;
-import entities.Mobile;
+import com.deloitte.telcom.dao.MobileDaoImpl;
+import com.deloitte.telcom.entities.Mobile;
 import junit.framework.Assert;
 
 public class MobileServiceImplTest 

@@ -1,8 +1,8 @@
-package dao;
+package com.deloitte.telcom.dao;
 import java.util.*;
 
-import entities.Mobile;
-import exceptions.MobileNotFoundException;
+import com.deloitte.telcom.entities.Mobile;
+import com.deloitte.telcom.exceptions.MobileNotFoundException;
 
 public class MobileDaoImpl implements IMobileDao {
 	private Map<String, Mobile> store=new HashMap<String, Mobile>();

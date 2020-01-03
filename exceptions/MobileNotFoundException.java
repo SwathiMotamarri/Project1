@@ -1,4 +1,4 @@
-package exceptions;
+package com.deloitte.telcom.exceptions;
 
 public class MobileNotFoundException extends RuntimeException {
 

@@ -1,11 +1,11 @@
-package ui;
+package com.deloitte.telcom.ui;
 import java.util.Scanner;
 import java.util.Set;
 import java.util.Collection;
-import dao.MobileDaoImpl;
-import entities.Mobile;
-import service.IMobileService;
-import service.MobileServiceImpl;
+import com.deloitte.telcom.dao.MobileDaoImpl;
+import com.deloitte.telcom.entities.Mobile;
+import com.deloitte.telcom.service.IMobileService;
+import com.deloitte.telcom.service.MobileServiceImpl;
 public class MobileUi {
     private IMobileService service = new MobileServiceImpl(new MobileDaoImpl());
 
